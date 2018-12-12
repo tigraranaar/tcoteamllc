@@ -6450,40 +6450,40 @@ body {
   overflow-x: hidden; }
   body nav {
     width: 100%;
-    min-height: 100px;
-    max-height: 100px;
     background-color: white !important; }
-    body nav .container-fluid form .submit_button {
-      border-style: solid;
-      border-width: 2px;
-      border-color: #404f54;
-      border-radius: 30px;
-      background-color: white;
-      opacity: 0.4;
-      width: 160px;
-      height: 42px;
-      font-size: 14px;
-      font-family: "OpenSans";
-      color: #404f54; }
-    body nav .container-fluid .ico {
-      font-size: 28px;
-      font-family: "Lora";
-      color: white;
-      font-weight: bold;
-      line-height: 1.2;
-      background-color: #1baba1;
-      width: 55px;
-      height: 52px;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-    body nav .container-fluid div ul li a {
-      font-size: 14px;
-      font-family: "OpenSans";
-      color: #404f54;
-      opacity: 0.4;
-      text-transform: uppercase;
-      line-height: 1.2; }
+    body nav .container-fluid {
+      padding: 10px 0; }
+      body nav .container-fluid form .submit_button {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #404f54;
+        border-radius: 30px;
+        background-color: white;
+        opacity: 0.4;
+        width: 160px;
+        height: 42px;
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: #404f54; }
+      body nav .container-fluid .ico {
+        font-size: 28px;
+        font-family: "Lora";
+        color: white;
+        font-weight: bold;
+        line-height: 1.2;
+        background-color: #1baba1;
+        width: 55px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+      body nav .container-fluid div ul li a {
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: #404f54;
+        opacity: 0.4;
+        text-transform: uppercase;
+        line-height: 1.2; }
   body header {
     position: relative; }
     body header .back_img {
