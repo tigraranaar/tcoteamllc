@@ -118,9 +118,9 @@ body {
 
   nav {
     width: 100%;
-    min-height: 100px;
     background-color: white !important;
     .container-fluid {
+      padding: 10px 0;
       form {
         .submit_button {
           border-style: solid;
